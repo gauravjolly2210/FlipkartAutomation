@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Advance tatoc test Suite]">
+  <test name="Advance Tatoc(failed)">
+    <classes>
+      <class name="com.qait.automation.flipkartMobileAutomation.TestCaseLogin">
+        <methods>
+          <include name="Step_03_Logging_in_the_Flipkart"/>
+          <include name="setting_Capabilites_Of_Device"/>
+        </methods>
+      </class> <!-- com.qait.automation.flipkartMobileAutomation.TestCaseLogin -->
+      <class name="com.qait.automation.flipkartMobileAutomation.TestCasesInstallation">
+        <methods>
+          <include name="setting_Capabilites_Of_Device"/>
+        </methods>
+      </class> <!-- com.qait.automation.flipkartMobileAutomation.TestCasesInstallation -->
+    </classes>
+  </test> <!-- Advance Tatoc(failed) -->
+</suite> <!-- Failed suite [Advance tatoc test Suite] -->

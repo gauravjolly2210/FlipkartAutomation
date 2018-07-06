@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<suite name="Advance tatoc test Suite" verbose="1" >
+  <test name="Advance Tatoc" >
+  
+    <classes>
+    <class name="com.qait.automation.flipkartMobileAutomation.TestCasesInstallation"></class>
+    <class name="com.qait.automation.flipkartMobileAutomation.TestCaseLogin"></class>
+    </classes>
+ </test>
+</suite>

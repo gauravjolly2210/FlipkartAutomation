@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.qait.automation.flipkartMobileAutomation.TestCases">
+        <methods>
+          <include name="Logging_in_the_Flipkart"/>
+          <include name="installing_APP_using_AppStore"/>
+          <include name="setting_Capabilites_Of_Device"/>
+        </methods>
+      </class> <!-- com.qait.automation.flipkartMobileAutomation.TestCases -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

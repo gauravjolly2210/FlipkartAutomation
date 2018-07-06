@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="3" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Advance tatoc test Suite" duration-ms="57491" started-at="2018-07-06T05:09:21Z" finished-at="2018-07-06T05:10:19Z">
+    <groups>
+    </groups>
+    <test name="Advance Tatoc" duration-ms="57491" started-at="2018-07-06T05:09:21Z" finished-at="2018-07-06T05:10:19Z">
+      <class name="com.qait.automation.flipkartMobileAutomation.TestCasesInstallation">
+        <test-method status="PASS" signature="setting_Capabilites_Of_Device()[pri:0, instance:com.qait.automation.flipkartMobileAutomation.TestCasesInstallation@c038203]" name="setting_Capabilites_Of_Device" is-config="true" duration-ms="6" started-at="2018-07-06T10:39:21Z" finished-at="2018-07-06T10:39:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setting_Capabilites_Of_Device -->
+        <test-method status="PASS" signature="Step_01_installing_APP_using_AppStore()[pri:0, instance:com.qait.automation.flipkartMobileAutomation.TestCasesInstallation@c038203]" name="Step_01_installing_APP_using_AppStore" duration-ms="28388" started-at="2018-07-06T10:39:21Z" finished-at="2018-07-06T10:39:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Step_01_installing_APP_using_AppStore -->
+      </class> <!-- com.qait.automation.flipkartMobileAutomation.TestCasesInstallation -->
+      <class name="com.qait.automation.flipkartMobileAutomation.TestCaseLogin">
+        <test-method status="PASS" signature="setting_Capabilites_Of_Device()[pri:0, instance:com.qait.automation.flipkartMobileAutomation.TestCaseLogin@4501b7af]" name="setting_Capabilites_Of_Device" is-config="true" duration-ms="1" started-at="2018-07-06T10:39:50Z" finished-at="2018-07-06T10:39:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setting_Capabilites_Of_Device -->
+        <test-method status="PASS" signature="Step_02_Entering_Flipkart()[pri:0, instance:com.qait.automation.flipkartMobileAutomation.TestCaseLogin@4501b7af]" name="Step_02_Entering_Flipkart" duration-ms="4416" started-at="2018-07-06T10:39:50Z" finished-at="2018-07-06T10:39:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Step_02_Entering_Flipkart -->
+        <test-method status="FAIL" signature="Step_03_Logging_in_the_Flipkart()[pri:0, instance:com.qait.automation.flipkartMobileAutomation.TestCaseLogin@4501b7af]" name="Step_03_Logging_in_the_Flipkart" duration-ms="24662" started-at="2018-07-06T10:39:54Z" finished-at="2018-07-06T10:40:19Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2.19 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.46.0', revision: '61506a4624b13675f24581e453592342b7485d71', time: '2015-06-04 10:22:50'
+System info: host: 'ASDA1538PO01976', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '3.13.0-151-generic', java.version: '1.8.0_171'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{appPackage=com.flipkart.android, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=emulator-5554, platform=LINUX, deviceUDID=emulator-5554, appActivity=.activity.HomeFragmentHolderActivity, desired={appPackage=com.flipkart.android, appActivity=.activity.HomeFragmentHolderActivity, platformVersion=7.1.1, udid=emulator-5554, platformName=Android, deviceName=Nexus_5}, platformVersion=7.1.1, webStorageEnabled=false, locationContextEnabled=false, takesScreenshot=true, javascriptEnabled=true, deviceModel=Android SDK built for x86, udid=emulator-5554, platformName=Android, deviceManufacturer=Google}]
+Session ID: a29bae7d-373d-4247-a436-1d0e16553fea
+*** Element info: {Using=id, value=ImageButton}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2.19 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.46.0', revision: '61506a4624b13675f24581e453592342b7485d71', time: '2015-06-04 10:22:50'
+System info: host: 'ASDA1538PO01976', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '3.13.0-151-generic', java.version: '1.8.0_171'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{appPackage=com.flipkart.android, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=emulator-5554, platform=LINUX, deviceUDID=emulator-5554, appActivity=.activity.HomeFragmentHolderActivity, desired={appPackage=com.flipkart.android, appActivity=.activity.HomeFragmentHolderActivity, platformVersion=7.1.1, udid=emulator-5554, platformName=Android, deviceName=Nexus_5}, platformVersion=7.1.1, webStorageEnabled=false, locationContextEnabled=false, takesScreenshot=true, javascriptEnabled=true, deviceModel=Android SDK built for x86, udid=emulator-5554, platformName=Android, deviceManufacturer=Google}]
+Session ID: a29bae7d-373d-4247-a436-1d0e16553fea
+*** Element info: {Using=id, value=ImageButton}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:605)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:27)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:399)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementById(DefaultGenericMobileDriver.java:47)
+	at io.appium.java_client.AppiumDriver.findElementById(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementById(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ById.findElement(By.java:215)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:37)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at com.qait.automation.flipkartMobileAutomation.Login.Signing_up(Login.java:40)
+	at com.qait.automation.flipkartMobileAutomation.TestCaseLogin.Step_03_Logging_in_the_Flipkart(TestCaseLogin.java:32)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Step_03_Logging_in_the_Flipkart -->
+      </class> <!-- com.qait.automation.flipkartMobileAutomation.TestCaseLogin -->
+    </test> <!-- Advance Tatoc -->
+  </suite> <!-- Advance tatoc test Suite -->
+</testng-results>
